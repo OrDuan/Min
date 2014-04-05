@@ -648,3 +648,55 @@ iframe,
 object {
 	max-width: 100%;
 }
+
+body {
+  background-image: url(http://irontemplates.com/wp-demos/content/themes/ironband/css/colors/pink/bg.jpg);
+  font-size:1em;
+  line-height:1.231;
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 5px;
+}
+
+.site-branding {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.site-branding .site-title {
+  font-size: 2.5em;
+}
+
+.post {
+  font-family: 'Open-Sans', sans-serif;
+  margin-top: 50px;
+}
+
+.post .title {
+  font-size: 1.4em;
+}
+
+.post .content {
+  margin-top: 20px;
+}
+
+.post .content p {
+  margin-top: 8px;
+}
+
+nav {
+  margin-top: 40px;
+}
+
+nav .previous {
+  float: left;
+}
+
+nav .next {
+  float: right;
+}
