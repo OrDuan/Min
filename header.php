@@ -25,7 +25,7 @@
 </html>
 
 <body <?php body_class(); ?>>
-	<nav>
+	<nav style="omer">
 		<span class="previous">
 			Previous
 		</span>
