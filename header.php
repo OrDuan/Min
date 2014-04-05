@@ -25,14 +25,14 @@
 </html>
 
 <body <?php body_class(); ?>>
-	<nav>
+	<nav style="or">
 		<span class="previous">
 			Previous
 		</span>
 		<span class="next">
 			Next
 		</span>
-	</nav  >
+	</nav>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
