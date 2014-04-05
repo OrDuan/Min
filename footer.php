@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after
  *
- * @package _s
+ * @package Min
  */
 ?>
 
@@ -13,7 +13,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site-info">
 		<span class="sep"> | </span>
-		<?php printf( __( 'Theme: %1$s by %2$s.', '_s' ), '_s', '<a href="http://coffeewp.com/" rel="designer">CoffeeWP</a>' ); ?>
+		<?php printf( __( 'Theme: %1$s by %2$s.', 'min' ), 'min', '<a href="http://coffeewp.com/" rel="designer">CoffeeWP</a>' ); ?>
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->

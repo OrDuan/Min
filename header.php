@@ -4,7 +4,7 @@
 	 *
 	 * Displays all of the <
 	 *
-	 * @package _s
+	 * @package Min
 	 */
 	?><!DOCTYPE html>
 	<html <?php language_attributes(); ?>>
