@@ -23,7 +23,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<nav>
+	<nav >
 		<span class="previous">
 			Previous
 		</span>
