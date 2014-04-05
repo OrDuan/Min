@@ -21,7 +21,7 @@
 
 	<?php wp_head(); ?>
 </head>
-<font></font>
+
 <body <?php body_class(); ?>>
 	<nav >
 		<span class="previous">
