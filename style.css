@@ -720,3 +720,20 @@ nav .previous {
 nav .next {
 	float: right;
 }
+
+/* Comments */
+.comment-reply-title, .logged-in-as {
+	display: none;
+}
+
+.comment-author img {
+	display: none;
+}
+
+h2.comments-title {
+	margin-bottom: 10px;
+}
+
+.comment-metadata {
+	display: none;
+}
