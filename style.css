@@ -656,6 +656,7 @@ body {
   overflow: hidden;
   max-width: 900px;
   margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
 }
 
 div {
@@ -663,13 +664,17 @@ div {
 }
 
 .site-branding {
-  font-family: 'Oswald', sans-serif;
   text-align: center;
   margin-top: 20px;
 }
 
 .site-branding .site-title {
   font-size: 2.5em;
+}
+
+.site-description{
+	font-size: 1.8em;
+	text-align: center;
 }
 
 .post {
