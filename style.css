@@ -737,3 +737,11 @@ h2.comments-title {
 .comment-metadata {
 	display: none;
 }
+
+.error-404 {
+	text-align: center;
+}
+
+footer {
+	margin-top: 100px;
+}
