@@ -25,7 +25,7 @@
 </html>
 
 <body <?php body_class(); ?>>
-	<nav style="or">
+	<nav>
 		<span class="previous">
 			Previous
 		</span>
@@ -41,6 +41,7 @@
 		</div>
 		<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 	</div>
+	<!--?php wp_nav_menu( array( 'theme_location' => 'extra-menu', 'container_class' => 'my_extra_menu_class' ) ); ?-->
 </header><!-- #masthead -->
 
 <div id="content" class="site-content">
