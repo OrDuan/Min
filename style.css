@@ -97,8 +97,8 @@ ol, ul {
 	list-style: none;
 }
 table { /* tables still need 'cellspacing="0"' in the markup */
-	border-collapse: separate;
-	border-spacing: 0;
+border-collapse: separate;
+border-spacing: 0;
 }
 caption, th, td {
 	font-weight: normal;
@@ -140,7 +140,8 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 p {
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
+	font-size: 0.9em;
 }
 b, strong {
 	font-weight: bold;
@@ -349,12 +350,12 @@ a {
 	color: royalblue;
 }
 a:visited {
-	color: purple;
+	/*color: purple;*/
 }
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	/*color: midnightblue;*/
 }
 
 /*--------------------------------------------------------------
@@ -650,34 +651,35 @@ object {
 }
 
 body {
-  font-size:1.5em;
-  line-height:1.231;
-  overflow: hidden;
-  max-width: 900px;
-  margin: 0 auto;
+	font-size:1.5em;
+	line-height:1.231;
+	overflow: hidden;
+	max-width: 900px;
+	margin: 0 auto;
+	/*color: black;*/
 }
 
-div {
-  margin-bottom: 5px;
-}
-
-.site-header {
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.site-header h1 {
-  font-size: 2.5em;
-}
-
-.site-header h1 a {
+a {
 	color: black;
 	text-decoration: none;
 }
 
-.site-header h1 a:hover {
+a:hover {
 	text-decoration: underline;
+}
+
+div {
+	margin-bottom: 5px;
+}
+
+.site-header {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.site-header h1 {
+	font-size: 2.5em;
 }
 
 .site-header .site-description{
@@ -686,31 +688,35 @@ div {
 }
 
 .post {
-  font-family: 'Open-Sans', sans-serif;
-  margin-top: 50px;
-  font-size: 20px;
+	font-family: 'Open-Sans', sans-serif;
+	margin-top: 50px;
+	font-size: 18px;
 }
 
-.post .title {
-  font-size: 1.4em;
+.post .entry-title {
+	font-size: 1.4em;
+}
+
+.post .entry-meta {
+	font-size: 0.8em;
 }
 
 .post .content {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 .post .content p {
-  margin-top: 8px;
+	margin-top: 8px;
 }
 
 nav {
-  margin-top: 40px;
+	margin-top: 40px;
 }
 
 nav .previous {
-  float: left;
+	float: left;
 }
 
 nav .next {
-  float: right;
+	float: right;
 }
