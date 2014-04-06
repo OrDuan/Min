@@ -16,23 +16,21 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-		<?php $custom_query = new WP_Query( 'posts_per_page=3' ); ?>
-		<?php $paged = (get_query_var('page')) ? get_query_var('page') : 1; ?>
-		<?php query_posts( $custom_query . "&page=$page" ); ?>
+
 
 		<?php if ( have_posts() ) : ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( $custom_query->have_posts() ) :  $custom_query->the_post(); ?>
 
-				<?php
-				get_template_part( 'content', get_post_format() );
-				?>
+			<?php /* Start the Loop */ ?>
+			<?php while ( have_posts() ) :  the_post(); ?>
+
+				<?php get_template_part( 'content', get_post_format() ); ?>
 
 			<?php endwhile; ?>
 
 			<nav id="nav-below">
-				<?php next_posts_link('&laquo; Older Entries', $custom_query->max_num_pages) ?>
+				<div class="nav-previous alignleft"><?php next_posts_link( __('Next posts', 'Min') ); ?></div>
+				<div class="nav-next alignright"><?php previous_posts_link( 'Previous posts', 'Min'); ?></div>
 			</nav><!-- #nav-below -->
 
 		<?php else : ?>
@@ -40,8 +38,6 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
-
-		<?php  wp_reset_query(); // Reset Query ?> 
 
 	</main><!-- #main -->
 </div><!-- #primary -->
