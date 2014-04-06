@@ -28,10 +28,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<nav id="nav-below">
-				<div class="nav-previous alignleft"><?php next_posts_link( __('Next posts', 'Min') ); ?></div>
-				<div class="nav-next alignright"><?php previous_posts_link( 'Previous posts', 'Min'); ?></div>
-			</nav><!-- #nav-below -->
+			<?php min_paging_nav(); ?>
 
 		<?php else : ?>
 
