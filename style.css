@@ -751,3 +751,25 @@ footer.site-footer {
 	text-align: center;
 	font-size: 2em;
 }
+
+/* Page */
+.page .entry-header {
+	font-size: 2em;
+	margin-top: 25px;
+	text-align: center;
+}
+
+/* Menu */
+.menu {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu li {
+	display: inline;
+	margin-right: 8px;
+}

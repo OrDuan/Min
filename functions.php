@@ -120,11 +120,3 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
-
-/**
- * Register the Header Menu
- */
-function register_my_menu() {
-  register_nav_menu('header-menu',__( 'Header Menu' ));
-}
-add_action( 'init', 'register_my_menu' );

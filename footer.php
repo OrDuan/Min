@@ -10,10 +10,12 @@
 
 </div><!-- #content -->
 
+<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+
 <footer id="colophon" class="site-footer" role="contentinfo">
-	<div class="site-info">
-		<?php printf( __( '%1$s by %2$s.', 'min' ), 'Min', '<a href="http://coffeewp.com/" rel="designer">CoffeeWP</a>' ); ?>
-	</div><!-- .site-info -->
+    <div class="site-info">
+        <?php printf( __( '%1$s by %2$s.', 'min' ), 'Min', '<a href="http://coffeewp.com/" rel="designer">CoffeeWP</a>' ); ?>
+    </div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->
 
